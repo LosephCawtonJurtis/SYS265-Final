@@ -1,0 +1,16 @@
+Util
+Dhcp1
+Dhcp2
+docker-1
+[windows]
+MGMT-1
+dfs1
+dfs2
+dc1
+AD-02
+[windows:vars]
+ansible_user=sysadmin@sys.local
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+ansible_winrm_transport=ntlm
+ansible_windrm_port=5986
