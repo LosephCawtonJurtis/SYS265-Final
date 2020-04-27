@@ -1,0 +1,12 @@
+-name: installs apt package php
+hosts: "linux"
+
+tasks:
+        - name: install php7.2
+          apt:
+                name: php7.2
+                state: present
+                update_cache: True
+          become: true
+          when: ansible_os_family == 'Debian'
+        
