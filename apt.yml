@@ -1,5 +1,5 @@
 -name: installs apt package php
-hosts: "linux"
+hosts: linux
 
 tasks:
         - name: install php7.2
