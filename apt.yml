@@ -1,3 +1,4 @@
+---
 -name: installs apt package php
 hosts: linux
 
