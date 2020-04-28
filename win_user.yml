@@ -1,0 +1,12 @@
+---
+- hosts: domain
+  tasks:
+   - name:
+     win_domain_user:
+      name: username
+      firstname: yourname
+      password: yourpass
+      state: present
+      domain_username: domain.local\domainadmin
+      domain_password: Domainpass
+     
