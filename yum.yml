@@ -1,3 +1,4 @@
+---
 - name: install yum package
   hosts: linux
   tasks:
