@@ -1,0 +1,13 @@
+---
+- hosts: linux
+  become: true
+  tasks:
+  - name:
+    user:
+      name: yourusername
+      password: hashed password
+      state: present
+      shell: /bin/bash
+      system: no
+      createhome: yes
+      home: /home/john
