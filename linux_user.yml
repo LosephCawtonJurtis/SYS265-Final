@@ -10,4 +10,4 @@
       shell: /bin/bash
       system: no
       createhome: yes
-      home: /home/john
+      home: /home/yourusername
