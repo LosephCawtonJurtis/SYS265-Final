@@ -3,9 +3,9 @@
 hosts: linux
 
 tasks:
-        - name: install php7.2
+        - name: install tree
           apt:
-                name: php7.2
+                name: tree
                 state: present
                 update_cache: True
           become: true
